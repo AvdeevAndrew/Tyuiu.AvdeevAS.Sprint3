@@ -10,7 +10,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task1.V3.Lib
 
             while (k <= stopValue)
             {
-                product *= Math.Pow(k / (Math.Cos(5) + 1), 2);
+                product *= k / Math.Pow((Math.Cos(5) + 1),2);
                 k++;
             }
 
