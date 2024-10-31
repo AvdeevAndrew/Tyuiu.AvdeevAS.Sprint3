@@ -11,11 +11,11 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task5.V17.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    y += Math.Sin(k);
+                    y += Math.Sin(k) + Math.Pow(x, 2);
                 }
             }
 
-            y += Math.Pow(x, 2); // Добавляем x^2 после завершения вложенных циклов
+             
 
             return Math.Round(y,3);
         }
