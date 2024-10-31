@@ -18,7 +18,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27.Test
             double result = ds.GetSumSeries(value, startValue, stopValue);
 
             // Assert
-            Assert.AreEqual(16.016, Math.Round(result,3));
+            Assert.AreEqual(16.016, result);
         }
     }
 }

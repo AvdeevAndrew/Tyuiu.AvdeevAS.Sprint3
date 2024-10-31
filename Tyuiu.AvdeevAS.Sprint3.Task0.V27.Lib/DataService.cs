@@ -8,6 +8,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27.Lib
             double sum = 0;
             for (int k = startValue; k <= stopValue; k++)
             {
+                
                 sum += Math.Pow(4.0 / Math.Pow(k, value), 2);
             }
             return sum;
