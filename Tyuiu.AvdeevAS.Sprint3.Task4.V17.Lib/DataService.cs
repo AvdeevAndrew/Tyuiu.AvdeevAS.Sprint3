@@ -10,7 +10,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0) // Если x = 0, прерываем цикл
+                if (x == 0) // Если x = 0, прерываем циклdfdf
                 {
                     break;
                 }
