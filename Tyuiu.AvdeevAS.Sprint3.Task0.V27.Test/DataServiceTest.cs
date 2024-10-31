@@ -10,7 +10,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 13;
 
@@ -18,7 +18,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27.Test
             double result = ds.GetSumSeries(value, startValue, stopValue);
 
             // Assert
-            Assert.AreEqual(16.016, result);
+            Assert.AreEqual(89230044518.925, result);
         }
     }
 }

@@ -1,7 +1,5 @@
-﻿
-using Tyuiu.AvdeevAS.Sprint3.Task0.V27.Lib;
-
-namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27
+﻿using Tyuiu.AvdeevAS.Sprint3.Task1.V3.Lib;
+namespace Tyuiu.AvdeevAS.Sprint3.Task1.V3
 {
     internal class Program
     {
@@ -14,8 +12,8 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*                                  Спринт #3                              *");
             Console.WriteLine("* Тема: <...>                                                             *");
-            Console.WriteLine("*                              Задание #0                                 *");
-            Console.WriteLine("*                              Вариант #27                                *");
+            Console.WriteLine("*                              Задание #1                                 *");
+            Console.WriteLine("*                              Вариант #3                                 *");
             Console.WriteLine("* Выполнил: Авдеев Андрей Сергеевич    | ИБКСБ-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*                                  УСЛОВИЕ:                               *");
@@ -24,9 +22,8 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27
             Console.WriteLine("*                               ИСХОДНЫЕ ДАННЫЕ:                          *");
             Console.WriteLine("***************************************************************************");
 
-            int value = 5;
             int startValue = 1;
-            int stopValue = 13;
+            int stopValue = 10;
 
 
 
@@ -36,7 +33,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27
             Console.WriteLine("РЕЗУЛЬТАТ:                                                                *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine($"Произведение ряда от {startValue} до {stopValue}: {ds.GetMultiplySeries(startValue, stopValue)}");
 
             Console.ReadKey();
         }
