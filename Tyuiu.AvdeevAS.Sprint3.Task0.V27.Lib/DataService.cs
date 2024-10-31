@@ -12,7 +12,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task0.V27.Lib
 
                 sum += Math.Pow(4.0 / Math.Pow(k, value), 2);
             }
-            return Math.Round(sum,4);
+            return Math.Round(sum,3);
         }
     }
 }
