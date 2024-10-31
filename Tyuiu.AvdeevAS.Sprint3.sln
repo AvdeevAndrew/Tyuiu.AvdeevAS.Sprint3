@@ -45,9 +45,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AvdeevAS.Sprint3.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AvdeevAS.Sprint3.Task4.V6", "Tyuiu.AvdeevAS.Sprint3.Task4.V17\Tyuiu.AvdeevAS.Sprint3.Task4.V6.csproj", "{6387B896-D4F3-4BA7-9CA1-C586417F1E41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib", "Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib\Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib.csproj", "{3DC3DC3F-4989-4A14-8421-0349D7185D99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib", "Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib\Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib.csproj", "{3DC3DC3F-4989-4A14-8421-0349D7185D99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AvdeevAS.Sprint3.Task4.V6.Test", "Tyuiu.AvdeevAS.Sprint3.Task4.V17.Test\Tyuiu.AvdeevAS.Sprint3.Task4.V6.Test.csproj", "{14BE3B26-68B2-4057-B282-18A397A8B87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib", "Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib\Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib.csproj", "{41A24C15-E305-4CB6-AFC7-6333F860A3EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +117,10 @@ Global
 		{14BE3B26-68B2-4057-B282-18A397A8B87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14BE3B26-68B2-4057-B282-18A397A8B87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14BE3B26-68B2-4057-B282-18A397A8B87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A24C15-E305-4CB6-AFC7-6333F860A3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A24C15-E305-4CB6-AFC7-6333F860A3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A24C15-E305-4CB6-AFC7-6333F860A3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A24C15-E305-4CB6-AFC7-6333F860A3EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +141,7 @@ Global
 		{6387B896-D4F3-4BA7-9CA1-C586417F1E41} = {2343D51E-6EC7-461D-A65F-32BD622F5194}
 		{3DC3DC3F-4989-4A14-8421-0349D7185D99} = {2343D51E-6EC7-461D-A65F-32BD622F5194}
 		{14BE3B26-68B2-4057-B282-18A397A8B87E} = {2343D51E-6EC7-461D-A65F-32BD622F5194}
+		{41A24C15-E305-4CB6-AFC7-6333F860A3EB} = {2343D51E-6EC7-461D-A65F-32BD622F5194}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1FDAC34-B37C-408A-BEC2-62CD544352FD}

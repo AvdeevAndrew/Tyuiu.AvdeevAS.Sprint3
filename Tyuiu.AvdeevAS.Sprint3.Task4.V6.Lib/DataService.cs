@@ -1,6 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint3;
-
-namespace Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib
+namespace Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib
 {
     public class DataService : ISprint3Task4V6
     {
@@ -19,7 +18,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib
                 sum += y;
             }
 
-            return Math.Round(sum,3);
+            return Math.Round(sum, 3);
         }
     }
 }

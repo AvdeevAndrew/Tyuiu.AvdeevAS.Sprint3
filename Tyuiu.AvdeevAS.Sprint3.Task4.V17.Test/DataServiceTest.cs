@@ -1,5 +1,5 @@
-using Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib;
-namespace Tyuiu.AvdeevAS.Sprint3.Task4.V6.Test
+using Tyuiu.AvdeevAS.Sprint3.Task4.V17.Lib;
+namespace Tyuiu.AvdeevAS.Sprint3.Task4.V17.Test
 {
     [TestClass]
     public class DataServiceTest
