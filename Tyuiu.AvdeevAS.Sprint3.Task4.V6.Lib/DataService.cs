@@ -14,7 +14,7 @@ namespace Tyuiu.AvdeevAS.Sprint3.Task4.V6.Lib
                     break;
                 }
 
-                double y = x / (Math.Cos(x) * Math.Sin(x));
+                double y = x / (Math.Cos(x) - Math.Sin(x));
                 sum += y;
             }
 
